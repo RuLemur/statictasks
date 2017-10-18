@@ -3,4 +3,8 @@
  * StaticTasks
  */
 public class Main {
+
+    public static void main(String[] args) {
+        Randomizer.getRandomInt(50,100);
+    }
 }
