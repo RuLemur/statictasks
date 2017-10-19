@@ -1,3 +1,4 @@
+import martingeyl.Martingeyl;
 import util.Randomizer;
 
 /**
@@ -7,6 +8,7 @@ import util.Randomizer;
 public class Main {
 
     public static void main(String[] args) {
-        Randomizer.getRandomInt(50,100);
+        Martingeyl martingeyl = new Martingeyl();
+        martingeyl.start(100);
     }
 }
